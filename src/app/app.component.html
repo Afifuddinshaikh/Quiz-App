@@ -1,0 +1,81 @@
+<nav class="navbar">
+    <div class="container-fluid">
+     <div class="col-md-6">
+      <a class="navbar-brand">e - ASSESSMENT</a>
+      
+     </div>
+      <span class="icons">
+        <img src="assets/images/question.png" class="question" alt="">&nbsp;&nbsp;
+        <img src="assets/images/settings.png"  class="settings" alt="">&nbsp;&nbsp;
+        <div class="search-box">
+        <img src="/assets/images/search.png" class="search" alt="">&nbsp;&nbsp;
+        </div>
+        <div class="group-main">
+        <img src="/assets/images/Group.png" class="group" alt="">&nbsp;&nbsp;
+      </div>
+      <div class="power-main">
+        <img src="/assets/images/power.png" class="power" alt="">&nbsp;&nbsp;
+      </div>
+      </span>
+    </div>
+  </nav>
+<div class="body">
+
+    <div class="rectangle-around">
+        <div class="card" >
+          <div class="card-header">
+            <p class="coice-interation" id="ModalLabel">CHOICE INTERACTION</p>
+            <span class="choice-right">
+              <p class="question">QUESTION</p>
+              <p class="response">RESPONSE</p>
+              <img src="/assets/images/trash.png" class="trash" alt="">
+          </span>
+          </div>
+          <div class="card-body">
+              <div class="col-md-7">
+                <input type="text" id="input-holder" class="form-control" placeholder="Define Prompt">
+              </div>
+              <div class="choices">
+                <div style="display: flex; align-items: flex-start;">
+                <input type="radio" name="choice" id="choice-3">
+                <label for="choice" style="padding-left: 28px;font-size: 15px; ">CHOICE 1</label>
+                <img src="/assets/images/trash-1.png" class="trash-1" alt=""><br><br>
+              </div>
+              <div>
+                <input type="radio" name="choice" id="choice-3">
+                <label for="choice" style="padding-left: 28px; font-size: 15px;">CHOICE 2</label>
+                <img src="/assets/images/trash-1.png" class="trash-1" alt=""><br><br>
+              </div>
+              <div>
+                <input type="radio" name="choice" id="choice-3">
+                <label for="choice" style="padding-left: 28px; font-size: 15px;">CHOICE 3</label>
+                <img src="/assets/images/trash-1.png"class="trash-1" alt="">
+              </div>
+              
+              </div>
+              <div class="add">
+                
+                <a style="font-size: 15px; font-weight: 700; color: #0C747E; padding-left: 10px; padding-top: 16px;" routerLink="Addchoices">Add Choice</a>
+              </div>
+              
+          </div>
+          <div>
+            <a class="done" routerLink="/project" >Done</a>
+          </div>
+        </div>
+      </div>
+      <div class="save-main">
+        <img src="/assets/images/save.png" class="save" alt="">
+      </div>
+      <div >
+        <span class="top-right">
+        <img src="/assets/images/eye.png" class="eye" alt="">
+        <img src="/assets/images/printer.png" class="printer" alt="">
+        <img src="/assets/images/lines.png" class="lines" alt="">
+      </span>
+      </div>
+      
+          </div>
+          <router-outlet></router-outlet>
+        
+    
